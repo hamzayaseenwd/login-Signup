@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    <title>Log In Page</title>
+</head>
+<body>
+    
+
+    <fieldset>
+        <legend><h1><b> LOG IN </b></h1></legend>
+        
+        <center><form action="">
+            <!-- <label for="" ><h1> E-mail Address: </h1></label><br> -->
+            <input type="email" required name="email"  placeholder="Enter Your E-mail Address" >
+            <br>
+            <br>
+            <!-- <label for=""><h1> Password:</h1></label><br> -->
+            <input type="password" required name="password" placeholder="Enter Your Password" >
+            <br>
+            <br>
+            <!-- <center><b><input id="continue" type="submit" value="Submit"></b></center> -->
+            <center><button onclick="logIn()" id="continue">Sign Up</button></center>
+            <center><button onclick="forgetPassword()" id="continue">Forget Password</button></center>
+            <center><button onclick="loginWihGoogle()" id="continue">Login with Google</button></center>
+
+            <br>
+            <br>
+            <a href="signup.html">Create an Account</a>
+            
+            </form></center>
+        
+    
+    </fieldset>
+    
+    
+    
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

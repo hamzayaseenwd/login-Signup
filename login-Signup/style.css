@@ -1,0 +1,74 @@
+/* body{
+    background-color: black;
+} */
+form{
+    width: 60%;
+    margin: auto;
+    
+    
+}
+/* li {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+
+} */
+
+fieldset{
+    border: 5px solid ;
+    border-radius: 20px ;
+    border-color: rgb(85, 10, 234);
+    box-shadow: 30px 30px 50px 10px  rgb(116, 90, 167);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h1{
+    color: rgb(85, 10, 234);
+    
+}
+select{
+    padding-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 10px 10px 10px rgb(0, 238, 0);
+}
+input{
+    padding-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 10px 10px 10px rgb(0, 238, 0);
+}
+textarea{
+    padding-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 10px 10px 10px rgb(0, 238, 0);
+}
+/* sup{
+    color: red;
+} */
+#continue{
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 2%;
+    background-color: rgb(85, 10, 234);
+    color: #ffffff;
+}
+
+/* #upload{
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 2%;
+    background-color: green;
+} */
